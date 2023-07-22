@@ -1,0 +1,33 @@
+.sec_nav{
+    margin-top: -180px;
+    /* position: absolute; */
+    background-color: #C7D7FE;
+    height: 130px;
+}
+@media only screen and (max-width: 576px) {
+    .sec_nav{
+        /* margin-top: -180px; */
+        /* position: absolute; */
+        background-color: #C7D7FE;
+        
+    }
+    .searchinpu{
+        margin-top: 10px;
+        color: gray;
+        margin-top: 80px;
+        border: 1px solid black;
+    }
+    .navbarfull{
+        /* height: 0px; */
+        /* width: 80%; */
+        /* background-color: rgb(202, 199, 199); */
+        margin-top: 20px;
+        /* position: absolute; */
+        border: 1px solid black;
+    }
+    .cartIcon{
+        margin-left: 70%;
+        margin-top: 5%;
+        position: absolute;
+    }
+    }

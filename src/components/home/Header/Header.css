@@ -1,0 +1,60 @@
+.navbartop {
+    margin-top: 100px;
+    /* position: absolute; */
+    /* background-color: #C7D7FE; */
+}
+.logoImg{
+    width: 130px;
+}
+.navbar-sec {
+    font-weight: normal;
+  }
+  
+  .navbar-sec:hover {
+    font-weight: bold;
+  }
+  
+  .navbar-sec {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    color: #cccccc; /* Equivalent to text-gray-200 */
+  }
+  
+  .navbar-sec:hover {
+    text-decoration: underline;
+    text-decoration-offset: 4px;
+  }
+  
+  .navbar-sec {
+    text-decoration-thickness: 1px;
+  }
+  
+  .navbar-sec:hover {
+    color: #ffffff; /* Equivalent to hover:text-white */
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-sec {
+      border-right: 2px solid #e5e7eb; /* Equivalent to md:border-r-[2px] border-r-gray-300 */
+    }
+  }
+  
+  .navbar-sec.hoverEffect {
+    /* Additional hover effects styles */
+  }
+  
+  .navbar-sec:last-child {
+    border-right: none; /* Equivalent to last:border-r-0 */
+  }
+  @media (min-width: 768px) {
+    .navbar-sec {
+      border-right: 2px solid #e5e7eb; /* Equivalent to md:border-r-[2px] border-r-gray-300 */
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .navbartop{
+        /* margin-top: -20px; */
+
+    }
+    }
